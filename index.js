@@ -1,9 +1,9 @@
 const express = require("express");
-require("./db/config");
-const User = require("./db/Users");
-const Attendance = require("./db/Attendence");
-const Student = require("./db/Student");
-const Batch = require("./db/Batch");
+require("./config");
+const User = require("./Users");
+const Attendance = require("./Attendence");
+const Student = require("./Student");
+const Batch = require("./Batch");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
